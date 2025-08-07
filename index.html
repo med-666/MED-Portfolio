@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Mohamed Belarabi - Web Developer & AI Student specializing in frontend development and creative design">
+    <meta name="keywords" content="web developer, frontend, AI, portfolio, Mohamed Belarabi, React, Vue, JavaScript">
+    <title>Mohamed Belarabi | Web Developer & AI Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar" aria-label="Main navigation">
+      <div class="container">
+        <a href="#home" class="logo" aria-label="Home">MB</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>
+            <span class="line">Hi, I'm</span>
+            <span class="line highlight">Mohamed Belarabi</span>
+            <span class="line">Web Developer & AI Student</span>
+          </h1>
+          <div class="animated-text">
+            <span class="text first-text">I build</span>
+            <span class="text sec-text" aria-hidden="true">digital experiences</span>
+          </div>
+          <a href="#projects" class="btn">
+            Explore My Work <i class="fas fa-arrow-down" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="hero-image">
+          <div class="profile-circle">
+            <div class="circle-decor"></div>
+            <div class="circle-decor"></div>
+            <div class="circle-decor"></div>
+            <img
+              src="meee.jpg"
+              alt="Mohamed Belarabi's profile picture"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrows">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-decor">//</span> About Me
+        </h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="fade-in">
+              I'm Mohamed Belarabi, a creative developer who blends technical expertise with
+              artistic vision to craft immersive digital experiences. My
+              approach combines clean code with thoughtful design to create
+              solutions that are both functional and beautiful.
+            </p>
+            <p class="fade-in">
+              With a background in both development and AI studies, I bring a unique
+              perspective to every project, ensuring the final product exceeds
+              expectations. My interests include frontend development, creative design, and exploring AI tools.
+            </p>
+            <div class="skills fade-in">
+              <h3>My Toolbox</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fas fa-code" aria-hidden="true"></i>
+                  </div>
+                  <h4>Frontend</h4>
+                  <p>HTML, CSS, JavaScript, React, Vue</p>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fas fa-server" aria-hidden="true"></i>
+                  </div>
+                  <h4>Backend</h4>
+                  <p>Node.js, Express, MongoDB</p>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fas fa-paint-brush" aria-hidden="true"></i>
+                  </div>
+                  <h4>Design</h4>
+                  <p>UI/UX, Figma, Adobe Suite</p>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fas fa-robot" aria-hidden="true"></i>
+                  </div>
+                  <h4>AI</h4>
+                  <p>Prompt Engineering, ML Basics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="floating-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-decor">//</span> Featured Work
+        </h2>
+        <div class="swiper project-carousel">
+          <div class="swiper-wrapper">
+            <!-- Project 1 -->
+            <div class="swiper-slide project-card">
+              <div class="project-image">
+                <img
+                  src="skill-pic.png"
+                  alt="SkillForge learning platform screenshot"
+                  loading="lazy"
+                />
+                <div class="project-tag">Learning Platform</div>
+              </div>
+              <div class="project-info">
+                <h3>SkillForge</h3>
+                <p>
+                  A cutting-edge learning platform for developers offering
+                  interactive courses, coding challenges, and community features
+                  to accelerate skill development.
+                </p>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://med-666.github.io/SkillForge/" class="btn btn-small" target="_blank" rel="noopener noreferrer">View Live</a>
+                  <a href="https://github.com/med-666/SkillForge" class="btn btn-small btn-outline" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>                
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="swiper-slide project-card">
+              <div class="project-image">
+                <img
+                  src="prm.png"
+                  alt="Prompts AI resource screenshot"
+                  loading="lazy"
+                />
+                <div class="project-tag">AI Resource</div>
+              </div>
+              <div class="project-info">
+                <h3>Prompts</h3>
+                <p>
+                  A curated library of AI prompts for developers, writers, and
+                  creatives. Search, save, and share effective prompts for
+                  various AI tools.
+                </p>
+                <div class="project-tech">
+                  <span>Vue.js</span>
+                  <span>Firebase</span>
+                  <span>AI APIs</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://med-666.github.io/Prompts/" class="btn btn-small" target="_blank" rel="noopener noreferrer">View Live</a>
+                  <a href="https://github.com/med-666/Prompts" class="btn btn-small btn-outline" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination" aria-hidden="true"></div>
+          <div class="swiper-button-prev" aria-label="Previous project"></div>
+          <div class="swiper-button-next" aria-label="Next project"></div>
+        </div>
+      </div>
+      <div class="project-bg-text" aria-hidden="true">WORK</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="title-decor">//</span> Let's Connect
+        </h2>
+        <div class="contact-content">
+          <form class="contact-form" netlify>
+            <div class="form-group fade-in">
+              <label for="name" class="sr-only">Your Name</label>
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group fade-in">
+              <label for="email" class="sr-only">Your Email</label>
+              <input type="email" id="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group fade-in">
+              <label for="message" class="sr-only">Your Message</label>
+              <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn fade-in">
+              Send Message <i class="fas fa-paper-plane" aria-hidden="true"></i>
+            </button>
+          </form>
+          <div class="contact-info">
+            <h3 class="fade-in">Find me online</h3>
+            <p class="fade-in">
+              Feel free to reach out for collaborations or just to say hello!
+            </p>
+            <div class="social-links fade-in">
+              <a href="https://github.com/med-666" aria-label="GitHub" class="social-icon" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="social-icon" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" aria-label="Twitter" class="social-icon" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+              <a href="#" aria-label="Dribbble" class="social-icon" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-dribbble"></i>
+                <span>Dribbble</span>
+              </a>
+            </div>
+            <div class="email-link fade-in">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:mbmohamed777@gmail.com">contact@mbmohamed777@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Mohamed Belarabi. All rights reserved.
+        </p>
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
